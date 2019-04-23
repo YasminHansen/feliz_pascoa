@@ -1,0 +1,5 @@
+name: Feliz Páscoa
+type: module
+description: Imprime "Feliz Páscoa!"
+package: Custom
+core: 8.x
