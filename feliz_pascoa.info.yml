@@ -3,3 +3,5 @@ type: module
 description: Imprime "Feliz Páscoa!"
 package: Custom
 core: 8.x
+dependencies: 
+   - block

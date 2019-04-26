@@ -3,4 +3,13 @@ feliz_pascoa:
     defaults:
         _controller: Drupal\feliz_pascoa\Controller\FelizPascoaController::felizpascoa
     requirements:
-        _permission: 'access content'        
+        _permission: 'access content'
+
+contagem_pascoa:
+    path: /contador
+    defaults:
+        _controller: Drupal\feliz_pascoa\Controller\FelizPascoaController::contagem
+    requirements:
+        _permission: 'access content'
+
+        
